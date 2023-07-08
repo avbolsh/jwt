@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03e9ec70-50d1-4cbe-a0e1-fd33fc82bc34">
+  <producedTypes>
+    <managerType typeId="f8ff389b-0524-4a86-bad1-4189a124c380" valueTypeId="96bbdaf7-a2f5-4994-bd84-0aff807c1a8e"/>
+    <valueManagerType typeId="29091f34-2dce-49cb-b962-265ca60036b3" valueTypeId="f7fd4bf0-2268-4fbe-be4a-6b1e5fd74d41"/>
+    <valueKeyType typeId="edbaf80a-1927-4239-b241-84075646a51e" valueTypeId="58ac7047-7d1f-40bd-8fb4-6323c2db8c37"/>
+  </producedTypes>
+  <name>КлючПодписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключ подписи</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

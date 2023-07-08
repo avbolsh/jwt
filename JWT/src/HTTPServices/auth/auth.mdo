@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2acc3624-6750-4ce1-b1dd-455c12fe3c06">
+  <name>auth</name>
+  <synonym>
+    <key>ru</key>
+    <value>Auth</value>
+  </synonym>
+  <rootURL>auth</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="226c4d4e-da07-4e6c-a5c3-1126263b47d3">
+    <name>ok</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ok</value>
+    </synonym>
+    <template>/ok/*</template>
+    <methods uuid="00ba994b-cc57-4943-8a27-94cbbbc62d4b">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>okGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
