@@ -24,4 +24,20 @@
       <handler>okGET</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="fab7ffe7-e241-4a15-ab5e-2769ab75753b">
+    <name>token</name>
+    <synonym>
+      <key>ru</key>
+      <value>Token</value>
+    </synonym>
+    <template>/token/*</template>
+    <methods uuid="4df7101e-300a-43dd-b7cf-4ae0ae073ec4">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>tokenGET</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>
